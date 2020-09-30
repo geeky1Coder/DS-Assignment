@@ -46,6 +46,9 @@ int main()
     int res[3][3] = {{0, 0, 0},
                      {0, 0, 0},
                      {0, 0, 0}};
+    matrix_addition(mat1, mat2, res);
+    printMatrix(res);
+    cout << endl;
     matrix_multiplication(mat1, mat2, res);
     printMatrix(res);
     return 0;
